@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My First Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+    }
+    nav {
+      background: #e0e0e0;
+      padding: 20px;
+      margin-right: 20px;
+      width: 200px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin-bottom: 10px;
+    }
+    nav ul li a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background-color: #d4edda;
+      padding: 20px;
+      flex: 1;
+      margin-right: 20px;
+    }
+    aside {
+      background: #e0e0e0;
+      padding: 20px;
+      width: 250px;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>My First Blog</h1>
+  <div class="container">
+    <nav>
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#first-car">My First Car</a></li>
+        <li><a href="#first-job">My First Job</a></li>
+        <li><a href="#first-vacation">My First Vacation</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 id="first-car">My First Car</h2>
+      <p>I remember the day I bought my first car. It was a red hatchback, and I was so excited to drive it around the city.</p>
+
+      <h2 id="first-job">My First Job</h2>
+      <p>My first job was at a local coffee shop. I learned a lot about customer service and made some great friends.</p>
+
+      <h2 id="first-vacation">My First Vacation</h2>
+      <p>My first vacation was to the mountains. The scenery was breathtaking, and I enjoyed hiking and exploring the area.</p>
+    </main>
+
+    <aside>
+      <h2>2nd HTML / Iframe</h2>
+      <!-- Replace "https://example.com" with your actual URL -->
+      <iframe src="https://example.com" height="200"></iframe>
+    </aside>
+  </div>
+</body>
+</html>
